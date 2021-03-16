@@ -12,7 +12,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f616ccf3-f108-4882-a71c-ec21f7b31993" name="Default Changelist" comment="" />
+    <list default="true" id="f616ccf3-f108-4882-a71c-ec21f7b31993" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
+            <state relative-caret-position="210">
               <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -101,6 +103,9 @@
       <replace>addr_dram0</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -126,6 +131,7 @@
     <option name="width" value="838" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -146,6 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -212,12 +219,12 @@
       <workItem from="1611984891653" duration="595000" />
       <workItem from="1611985561719" duration="149000" />
       <workItem from="1611985819668" duration="28000" />
-      <workItem from="1615869199404" duration="954000" />
+      <workItem from="1615869199404" duration="1222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81751000" />
+    <option name="totallyTimeSpent" value="82019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,7 +237,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970297" visible="true" weight="0.11235357" />
       <window_info id="Structure" order="1" sideWeight="0.5029703" side_tool="true" weight="0.1517572" />
@@ -244,7 +250,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32871288" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32871288" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32871288" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.33069307" />
@@ -443,7 +449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
+        <state relative-caret-position="210">
           <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
