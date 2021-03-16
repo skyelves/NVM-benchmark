@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -pthread -mavx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/rw.dir/rw_interleave.cpp.o  -o rw  -L/Users/wangke/CLionProjects/Optane/local/lib 

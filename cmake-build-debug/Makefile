@@ -124,6 +124,19 @@ bandwidth/fast:
 .PHONY : bandwidth/fast
 
 #=============================================================================
+# Target rules for targets named rw
+
+# Build rule for target.
+rw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rw
+.PHONY : rw
+
+# fast build rule for target.
+rw/fast:
+	$(MAKE) -f CMakeFiles/rw.dir/build.make CMakeFiles/rw.dir/build
+.PHONY : rw/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -190,6 +203,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+rw_interleave.o: rw_interleave.cpp.o
+
+.PHONY : rw_interleave.o
+
+# target to build an object file
+rw_interleave.cpp.o:
+	$(MAKE) -f CMakeFiles/rw.dir/build.make CMakeFiles/rw.dir/rw_interleave.cpp.o
+.PHONY : rw_interleave.cpp.o
+
+rw_interleave.i: rw_interleave.cpp.i
+
+.PHONY : rw_interleave.i
+
+# target to preprocess a source file
+rw_interleave.cpp.i:
+	$(MAKE) -f CMakeFiles/rw.dir/build.make CMakeFiles/rw.dir/rw_interleave.cpp.i
+.PHONY : rw_interleave.cpp.i
+
+rw_interleave.s: rw_interleave.cpp.s
+
+.PHONY : rw_interleave.s
+
+# target to generate assembly for a file
+rw_interleave.cpp.s:
+	$(MAKE) -f CMakeFiles/rw.dir/build.make CMakeFiles/rw.dir/rw_interleave.cpp.s
+.PHONY : rw_interleave.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +239,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... bandwidth"
+	@echo "... rw"
 	@echo "... main"
 	@echo "... bandwidth.o"
 	@echo "... bandwidth.i"
@@ -206,6 +247,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... rw_interleave.o"
+	@echo "... rw_interleave.i"
+	@echo "... rw_interleave.s"
 .PHONY : help
 
 
