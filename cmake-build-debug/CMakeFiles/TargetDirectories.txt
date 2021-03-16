@@ -1,0 +1,4 @@
+/Users/wangke/CLionProjects/Optane/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wangke/CLionProjects/Optane/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wangke/CLionProjects/Optane/cmake-build-debug/CMakeFiles/bandwidth.dir
+/Users/wangke/CLionProjects/Optane/cmake-build-debug/CMakeFiles/main.dir

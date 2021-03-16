@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -mavx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lpthread CMakeFiles/main.dir/main.cpp.o  -o main  -L/Users/wangke/CLionProjects/Optane/local/lib 

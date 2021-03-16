@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../local/include/libpmem.h
+sys/types.h
+-
+pmemcompat.h
+-
+
+/Users/wangke/CLionProjects/Optane/main.cpp
+iostream
+-
+string.h
+-
+stdio.h
+-
+libpmem.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/mman.h
+-
+fcntl.h
+-
+time.h
+-
+unistd.h
+-
+

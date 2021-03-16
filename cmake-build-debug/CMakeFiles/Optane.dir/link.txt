@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Optane.dir/main.cpp.o CMakeFiles/Optane.dir/reader.cpp.o  -o Optane  -L/Users/wangke/CLionProjects/Optane/local/lib -Wl,-rpath,/Users/wangke/CLionProjects/Optane/local/lib -lpmemobj 

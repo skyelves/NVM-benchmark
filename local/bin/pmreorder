@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 /home/wangke/local/share/pmreorder/pmreorder.py 1.9.1 $*
